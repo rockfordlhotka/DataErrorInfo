@@ -1,6 +1,8 @@
+using System.ComponentModel;
+
 namespace DataErrorInfo
 {
-    public class PersonEdit : ErrorBase
+    public class PersonEdit : ErrorBase, INotifyPropertyChanged
     {
         public PersonEdit()
         {
@@ -8,6 +10,8 @@ namespace DataErrorInfo
         }
 
         private string _name;
+
+
         public string Name
         {
             get
@@ -21,7 +25,15 @@ namespace DataErrorInfo
                 else
                     RemoveError(nameof(Name), "Name is required");
                 _name = value;
+                OnPropertyChanged(nameof(Name));
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
