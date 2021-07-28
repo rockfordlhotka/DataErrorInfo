@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataErrorInfo", "DataErrorInfo.csproj", "{B08F6435-8A3A-4235-BC53-CF3B7E143954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "..\Library\Library.csproj", "{C7397E07-B946-4512-BDA9-69A2B6053778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "..\Library\Library.csproj", "{C7397E07-B946-4512-BDA9-69A2B6053778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{18220885-A6A9-4DFD-AA01-CAD7F9083C86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C7397E07-B946-4512-BDA9-69A2B6053778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7397E07-B946-4512-BDA9-69A2B6053778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7397E07-B946-4512-BDA9-69A2B6053778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18220885-A6A9-4DFD-AA01-CAD7F9083C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18220885-A6A9-4DFD-AA01-CAD7F9083C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18220885-A6A9-4DFD-AA01-CAD7F9083C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18220885-A6A9-4DFD-AA01-CAD7F9083C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
